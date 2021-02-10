@@ -55,7 +55,7 @@ The following command-line switches are optional:
 
 |Option|Description|
 |---|---|
-|[-nv12\|yuy2\|ayuv\|rgb4\|p010\|y210\|y410\|a2rgb10\|p016\|y216]| input color format (by default YUV420 is expected).|
+|[-nv12\|yuy2\|ayuv\|rgb4\|p010\|y210\|y410\|a2rgb10\|p016\|y216]| input color format (by default YUV420 is expected). rgb4 is accepted with -lowpower:on or -qsv-ff.|
 |[-msb10]| 10-bit color format is expected to have data in Most Significant Bits of words. (LSB data placement is expected by default). This option also disables data shifting during file reading.|
 | [-ec::p010\|yuy2\|nv12\|rgb4\|ayuv\|uyvy\|y210\|y410\|p016\|y216] | force output color format for encoder (conversion will be made if necessary). Default value: input color format|
 |[-tff\|bff]| input stream is interlaced, top\|bottom field first, if not specified progressive is expected|
